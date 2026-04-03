@@ -1,0 +1,3 @@
+display_name: 03train Simulation Router
+short_description: Route real 03_train DFT and ML-MD simulation requests without absorbing postprocess-only work.
+default_prompt: Route a 03_train simulation request into the correct DFT or MD branch, operation mode, and downstream executor or manifest.

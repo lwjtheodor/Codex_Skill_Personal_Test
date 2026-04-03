@@ -1,0 +1,59 @@
+{
+  "request_type": "normalized_ccfep_request",
+  "source_text": "Use restart.mlp and dump.dos5ps_vel.lammpstrj to find DOS-ready cases under phase_diagram_v10/10_5.",
+  "workstream": "03_train",
+  "registered_status": "first_class",
+  "path_resolution": {
+    "input_paths": [
+      "phase_diagram_v10/10_5"
+    ],
+    "normalized_paths": [
+      "/lustre/home/users/ewu/dpmd_work/Gen1_short_range_r2SCAN_D4_700/03_train/phase_diagram_v10/10_5"
+    ],
+    "path_family": "phase_diagram",
+    "path_family_confidence": 0.95
+  },
+  "markers": {
+    "path_markers": [
+      "phase_diagram_v10/10_5"
+    ],
+    "intent_markers": [
+      "inspect",
+      "prepare",
+      "filter"
+    ],
+    "artifact_markers": [
+      "restart.mlp",
+      "dump.dos5ps_vel.lammpstrj"
+    ],
+    "policy_markers": [
+      "dos_ready_cases_only"
+    ]
+  },
+  "routing": {
+    "capability_group": "case_filtering",
+    "preferred_agent": "md_postprocess_dispatch",
+    "preferred_skill": "ccfep-workstream-report",
+    "preferred_executor": "",
+    "handoff_mode": "skill"
+  },
+  "resolved_inputs": {
+    "branch_root": "/lustre/home/users/ewu/dpmd_work/Gen1_short_range_r2SCAN_D4_700/03_train/phase_diagram_v10/10_5",
+    "chirality": "10_5",
+    "required_case_markers": [
+      "restart.mlp",
+      "dump.dos5ps_vel.lammpstrj"
+    ],
+    "input_mode": "dos"
+  },
+  "required_evidence": [
+    "remote case listing under branch_root"
+  ],
+  "expected_outputs": [
+    "eligible case list",
+    "dispatch-ready filtered scope"
+  ],
+  "ambiguities": [],
+  "failure_state": "",
+  "next_step_hint": "filter_then_route"
+}

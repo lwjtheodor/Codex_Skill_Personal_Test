@@ -1,0 +1,38 @@
+{
+  "request_type": "normalized_ccfep_request",
+  "source_text": "",
+  "workstream": "",
+  "registered_status": "",
+  "path_resolution": {
+    "input_paths": [],
+    "normalized_paths": [],
+    "path_family": "",
+    "path_family_confidence": 0.0
+  },
+  "markers": {
+    "path_markers": [],
+    "intent_markers": [],
+    "artifact_markers": [],
+    "policy_markers": []
+  },
+  "routing": {
+    "capability_group": "",
+    "preferred_agent": "",
+    "preferred_skill": "",
+    "preferred_executor": "",
+    "handoff_mode": "skill | agent | executor | review"
+  },
+  "resolved_inputs": {},
+  "required_evidence": [],
+  "expected_outputs": [
+    {
+      "kind": "",
+      "root_path": "",
+      "file_patterns": [],
+      "consumer": ""
+    }
+  ],
+  "ambiguities": [],
+  "failure_state": "",
+  "next_step_hint": ""
+}

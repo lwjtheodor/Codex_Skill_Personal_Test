@@ -1,0 +1,49 @@
+{
+  "request_type": "normalized_ccfep_request",
+  "source_text": "Inspect the current state of dataset_run/RUN11 and tell me whether it is ready for training prep.",
+  "workstream": "03_train",
+  "registered_status": "first_class",
+  "path_resolution": {
+    "input_paths": [
+      "dataset_run/RUN11"
+    ],
+    "normalized_paths": [
+      "/lustre/home/users/ewu/dpmd_work/Gen1_short_range_r2SCAN_D4_700/03_train/dataset_run/RUN11"
+    ],
+    "path_family": "dataset_run",
+    "path_family_confidence": 0.99
+  },
+  "markers": {
+    "path_markers": [
+      "dataset_run/RUN11"
+    ],
+    "intent_markers": [
+      "inspect",
+      "summarize"
+    ],
+    "artifact_markers": [],
+    "policy_markers": [
+      "training_readiness"
+    ]
+  },
+  "routing": {
+    "capability_group": "status_inspection",
+    "preferred_agent": "dataset_curation",
+    "preferred_skill": "ccfep-case-state-summary",
+    "preferred_executor": "",
+    "handoff_mode": "skill"
+  },
+  "resolved_inputs": {
+    "target_path": "/lustre/home/users/ewu/dpmd_work/Gen1_short_range_r2SCAN_D4_700/03_train/dataset_run/RUN11",
+    "inspection_scope": "single_path",
+    "readiness_target": "training_preparation"
+  },
+  "required_evidence": [],
+  "expected_outputs": [
+    "case or path state summary",
+    "readiness note"
+  ],
+  "ambiguities": [],
+  "failure_state": "",
+  "next_step_hint": "inspection_only"
+}

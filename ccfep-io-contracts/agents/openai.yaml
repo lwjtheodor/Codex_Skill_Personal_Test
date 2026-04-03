@@ -1,0 +1,3 @@
+display_name: CCFEP IO Contracts
+short_description: Define shared CCFEP input and output object families without owning resource lookup.
+default_prompt: Define or inspect standardized CCFEP input and output objects, failure states, and consumer order.

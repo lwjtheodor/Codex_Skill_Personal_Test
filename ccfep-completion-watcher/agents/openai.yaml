@@ -1,0 +1,5 @@
+version: 1
+interface:
+  display_name: CCFEP Completion Watcher
+  short_description: Run periodic completion checks for CCFEP tasks.
+  default_prompt: Use this skill to perform a single watch pass over a CCFEP task by checking receipts, cluster state, and remote evidence against an output contract, then emit a compact pending status or a completed downstream draft.

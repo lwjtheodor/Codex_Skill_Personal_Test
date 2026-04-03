@@ -1,0 +1,3 @@
+display_name: CCFEP Template Registry
+short_description: Define and resolve standardized template families for CCFEP skills.
+default_prompt: Resolve the correct CCFEP template family and return a standardized template resolution result.

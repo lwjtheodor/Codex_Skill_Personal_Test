@@ -1,0 +1,3 @@
+display_name: CCFEP Platform Coder
+short_description: Implement shared CCFEP infrastructure without owning workstream business scripts.
+default_prompt: Implement shared CCFEP wrapper, locator, validator, or registry support after a non-coder skill escalates to implementation work.

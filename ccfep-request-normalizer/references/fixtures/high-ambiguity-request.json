@@ -1,0 +1,48 @@
+{
+  "request_type": "normalized_ccfep_request",
+  "source_text": "Take the latest finished branch and prepare whatever should happen next for analysis.",
+  "workstream": "",
+  "registered_status": "unregistered",
+  "path_resolution": {
+    "input_paths": [],
+    "normalized_paths": [],
+    "path_family": "",
+    "path_family_confidence": 0.18
+  },
+  "markers": {
+    "path_markers": [],
+    "intent_markers": [
+      "prepare",
+      "route"
+    ],
+    "artifact_markers": [
+      "latest finished branch"
+    ],
+    "policy_markers": [
+      "analysis_next_step"
+    ]
+  },
+  "routing": {
+    "capability_group": "",
+    "preferred_agent": "",
+    "preferred_skill": "ccfep-workstream-protocol",
+    "preferred_executor": "",
+    "handoff_mode": "review"
+  },
+  "resolved_inputs": {},
+  "required_evidence": [
+    "target workstream",
+    "target path or branch root",
+    "analysis branch intent"
+  ],
+  "expected_outputs": [
+    "review-ready request clarification"
+  ],
+  "ambiguities": [
+    "latest could refer to receipt time, remote mtime, or round index",
+    "analysis could mean LI, thermo, MSD, RACF, DOS, evaluation, or another branch",
+    "no path markers are present"
+  ],
+  "failure_state": "insufficient_markers",
+  "next_step_hint": "fallback_to_review"
+}

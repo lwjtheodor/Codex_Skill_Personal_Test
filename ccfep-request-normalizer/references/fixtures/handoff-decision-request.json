@@ -1,0 +1,60 @@
+{
+  "request_type": "normalized_ccfep_request",
+  "source_text": "This cb case has mixed evidence after convergence checks. Decide whether it should wait, retry, or hand off.",
+  "workstream": "cb",
+  "registered_status": "first_class",
+  "path_resolution": {
+    "input_paths": [
+      "/lustre/home/users/ewu/cb/10_5/40_3000"
+    ],
+    "normalized_paths": [
+      "/lustre/home/users/ewu/cb/10_5/40_3000"
+    ],
+    "path_family": "case_root",
+    "path_family_confidence": 0.97
+  },
+  "markers": {
+    "path_markers": [
+      "/lustre/home/users/ewu/cb/10_5/40_3000"
+    ],
+    "intent_markers": [
+      "review",
+      "route"
+    ],
+    "artifact_markers": [
+      "dump",
+      "log",
+      "restart evidence"
+    ],
+    "policy_markers": [
+      "handoff_decision_required"
+    ]
+  },
+  "routing": {
+    "capability_group": "next_step_decision",
+    "preferred_agent": "retry_controller",
+    "preferred_skill": "ccfep-handoff-planner",
+    "preferred_executor": "",
+    "handoff_mode": "skill"
+  },
+  "resolved_inputs": {
+    "case_root": "/lustre/home/users/ewu/cb/10_5/40_3000",
+    "decision_scope": "post_convergence_gate",
+    "candidate_decisions": [
+      "wait",
+      "retry",
+      "handoff"
+    ]
+  },
+  "required_evidence": [
+    "latest convergence summary"
+  ],
+  "expected_outputs": [
+    "handoff decision record"
+  ],
+  "ambiguities": [
+    "evidence quality is mixed and may support more than one decision"
+  ],
+  "failure_state": "",
+  "next_step_hint": "handoff_decision"
+}

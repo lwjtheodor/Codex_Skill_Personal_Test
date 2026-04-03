@@ -1,0 +1,57 @@
+{
+  "request_type": "normalized_ccfep_request",
+  "source_text": "Use cb/10_5/40_3000 but create a 03_train DeepMD training manifest and also route it to DOS support analysis.",
+  "workstream": "",
+  "registered_status": "unregistered",
+  "path_resolution": {
+    "input_paths": [
+      "cb/10_5/40_3000"
+    ],
+    "normalized_paths": [
+      "/lustre/home/users/ewu/cb/10_5/40_3000"
+    ],
+    "path_family": "case_root",
+    "path_family_confidence": 0.72
+  },
+  "markers": {
+    "path_markers": [
+      "cb/10_5/40_3000"
+    ],
+    "intent_markers": [
+      "prepare",
+      "route"
+    ],
+    "artifact_markers": [
+      "DeepMD training manifest",
+      "DOS support analysis"
+    ],
+    "policy_markers": [
+      "cross_workstream_conflict"
+    ]
+  },
+  "routing": {
+    "capability_group": "",
+    "preferred_agent": "",
+    "preferred_skill": "ccfep-workstream-protocol",
+    "preferred_executor": "",
+    "handoff_mode": "review"
+  },
+  "resolved_inputs": {
+    "conflicting_workstream_candidates": [
+      "cb",
+      "03_train"
+    ]
+  },
+  "required_evidence": [
+    "single intended workstream",
+    "single intended downstream action"
+  ],
+  "expected_outputs": [],
+  "ambiguities": [
+    "path markers point to cb",
+    "requested manifest type points to 03_train",
+    "requested downstream analysis points back to cb"
+  ],
+  "failure_state": "conflicting_markers",
+  "next_step_hint": "fallback_to_review"
+}

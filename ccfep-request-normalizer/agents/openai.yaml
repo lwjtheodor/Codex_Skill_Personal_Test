@@ -1,0 +1,7 @@
+interface:
+  display_name: "CCFEP Request Normalizer"
+  short_description: "Normalize CCFEP requests into stable input objects."
+  default_prompt: "Use $ccfep-request-normalizer to turn this CCFEP request into a precise downstream input object."
+
+policy:
+  allow_implicit_invocation: true

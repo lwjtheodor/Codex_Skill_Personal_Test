@@ -1,0 +1,39 @@
+{
+  "request_type": "normalized_ccfep_request",
+  "source_text": "Help with the next CCFEP step.",
+  "workstream": "",
+  "registered_status": "unregistered",
+  "path_resolution": {
+    "input_paths": [],
+    "normalized_paths": [],
+    "path_family": "",
+    "path_family_confidence": 0.0
+  },
+  "markers": {
+    "path_markers": [],
+    "intent_markers": [
+      "route"
+    ],
+    "artifact_markers": [],
+    "policy_markers": []
+  },
+  "routing": {
+    "capability_group": "",
+    "preferred_agent": "",
+    "preferred_skill": "ccfep-workstream-protocol",
+    "preferred_executor": "",
+    "handoff_mode": "review"
+  },
+  "resolved_inputs": {},
+  "required_evidence": [
+    "workstream",
+    "path marker or artifact marker",
+    "concrete intent"
+  ],
+  "expected_outputs": [],
+  "ambiguities": [
+    "request does not identify scope or target"
+  ],
+  "failure_state": "insufficient_markers",
+  "next_step_hint": "fallback_to_review"
+}

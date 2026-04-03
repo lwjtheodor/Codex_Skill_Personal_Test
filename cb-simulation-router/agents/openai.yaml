@@ -1,0 +1,3 @@
+display_name: CB Simulation Router
+short_description: Route cb remote simulation requests such as MSD, RACF, DOS, fill-in, rerun, and status checks.
+default_prompt: Route a cb simulation request into the correct simulation branch, operation mode, and downstream executor or manifest without modifying scripts.

@@ -1,0 +1,3 @@
+display_name: CB Production Analysis Router
+short_description: Route cb LI, frac_solid, thermo, and production handoff requests based on simulation outputs.
+default_prompt: Route a cb second-stage production analysis request into the correct analysis branch, operation mode, and downstream manifest or handoff.

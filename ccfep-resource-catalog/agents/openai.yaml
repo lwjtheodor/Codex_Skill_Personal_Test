@@ -1,0 +1,3 @@
+display_name: CCFEP Resource Catalog
+short_description: Index CCFEP resource locations, snapshots, and freshness without owning workflow semantics.
+default_prompt: Build or inspect a CCFEP resource catalog that maps source paths to local snapshots and freshness status without adding workflow logic.

@@ -1,0 +1,5 @@
+version: 1
+interface:
+  display_name: CCFEP Task Output Contract
+  short_description: Predict operational task outputs and completion signals.
+  default_prompt: Use this skill to derive expected remote artifacts, local state updates, completion criteria, fetch-worthy outputs, and the default downstream action for a CCFEP task.

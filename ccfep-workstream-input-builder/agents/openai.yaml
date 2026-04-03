@@ -1,0 +1,3 @@
+display_name: CCFEP Input Builder
+short_description: Build fixed contract-first input objects for CCFEP workstreams.
+default_prompt: Build a contract-first CCFEP input object from markers, path families, and execution maps without reading implementation files by default.
